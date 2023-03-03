@@ -95,7 +95,7 @@ Open a new terminal in VS Code by clicking "Terminal -> New Terminal." The termi
 
 One of the main packages we used to make [metrics.mta.info](metrics.mta.info) is called streamlit. You can install streamlit by copying or typing `pip install streamlit` into the terminal and hitting the `Enter` key. Like so:
  
-![image-11.png](./src/images/image-11.png)
+![](./src/images/image-11.PNG)
 
 The website (and this demonstration) also uses other packages; you can install them all by copying this into the terminal, and hitting enter. On a Windows computer, you can paste into the terminal with `shift + insert`:
 
