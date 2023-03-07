@@ -99,7 +99,7 @@ One of the main packages we used to make [metrics.mta.info](metrics.mta.info) is
 
 The website (and this demonstration) also uses other packages; you can install them all by copying this into the terminal, and hitting enter. On a Windows computer, you can paste into the terminal with `shift + insert`:
 
- `pip install pandas altair streamlit-aggrid`
+ `pip install pandas altair streamlit-aggrid datetime`
 
 ### Step 3
 
