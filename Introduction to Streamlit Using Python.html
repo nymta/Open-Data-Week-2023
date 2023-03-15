@@ -14584,7 +14584,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="alert alert-block alert-info">
 <b>Welcome!</b> 
 
-In this course, we use Python to explore bus speeds and subway service datasets from the <a href="https://new.mta.info/open-data">MTA's open data portal</a>. This will illustrate basic data-analysis tools with <a href="https://pandas.pydata.org/docs/user_guide/index.html">Python's pandas library</a>, data-visualization tools with Python's <a href="https://altair-viz.github.io/">Altair library</a>, and the website-creating capabilities of Python's <a href="https://streamlit.io/">streamlit library</a>. 
+In this course, we use Python to explore bus speeds and performance datasets from the <a href="https://new.mta.info/open-data">MTA's open data portal</a>. This will illustrate basic data-analysis tools with <a href="https://pandas.pydata.org/docs/user_guide/index.html">Python's pandas library</a>, data-visualization tools with Python's <a href="https://altair-viz.github.io/">Altair library</a>, and the website-creating capabilities of Python's <a href="https://streamlit.io/">streamlit library</a>. 
 
 Python is the programming language we use to prepare data for and create <a href="metrics.mta.info">metrics.mta.info</a>, and what you'll use in this demonstration. Upon completion of the course, you will be able to use Python to process and analyze datasets, and create basic webpages visualizing those datases.
 
@@ -14756,7 +14756,7 @@ Dan works as a Senior Data Scientist in the MTA's Data & Analytics Team, joining
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14771,6 +14771,29 @@ Dan works as a Senior Data Scientist in the MTA's Data & Analytics Team, joining
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>2023-03-13 16:13:16.872 INFO    numexpr.utils: NumExpr defaulting to 8 threads.
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14808,7 +14831,7 @@ Dan works as a Senior Data Scientist in the MTA's Data & Analytics Team, joining
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14830,6 +14853,33 @@ Dan works as a Senior Data Scientist in the MTA's Data & Analytics Team, joining
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>2023-03-13 16:13:20.577 
+  <span class="ansi-yellow-intense-fg ansi-bold">Warning:</span> to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run c:\Users\1282536\Anaconda3\lib\site-packages\ipykernel_launcher.py [ARGUMENTS]
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -16010,13 +16060,13 @@ dtype: object</pre>
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-<div id="altair-viz-9ce03ea3c080498284f0bf4d2fac6662"></div>
+<div id="altair-viz-d7e4fb02eca248eab39d4fc924961f7d"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-9ce03ea3c080498284f0bf4d2fac6662") {
-      outputDiv = document.getElementById("altair-viz-9ce03ea3c080498284f0bf4d2fac6662");
+    if (outputDiv.id !== "altair-viz-d7e4fb02eca248eab39d4fc924961f7d") {
+      outputDiv = document.getElementById("altair-viz-d7e4fb02eca248eab39d4fc924961f7d");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -16062,7 +16112,7 @@ dtype: object</pre>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"data": {"name": "data-9f0c1730257ba8612455ef6a84d77b88"}, "mark": "bar", "encoding": {"x": {"field": "A", "type": "nominal"}, "y": {"field": "B", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-9f0c1730257ba8612455ef6a84d77b88": [{"A": "Cat", "B": 1, "C": 0.1}, {"A": "Cat", "B": 2, "C": 0.2}, {"A": "Dog", "B": 3, "C": 0.3}, {"A": "Dog", "B": 4, "C": 0.4}, {"A": "Fish", "B": 6, "C": 0.6}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-9f0c1730257ba8612455ef6a84d77b88"}, "mark": "bar", "encoding": {"x": {"field": "A", "type": "nominal"}, "y": {"field": "B", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-9f0c1730257ba8612455ef6a84d77b88": [{"A": "Cat", "B": 1, "C": 0.1}, {"A": "Cat", "B": 2, "C": 0.2}, {"A": "Dog", "B": 3, "C": 0.3}, {"A": "Dog", "B": 4, "C": 0.4}, {"A": "Fish", "B": 6, "C": 0.6}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -16134,13 +16184,13 @@ dtype: object</pre>
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-<div id="altair-viz-92a92b8cf9a84b13ad359d1a6c24828a"></div>
+<div id="altair-viz-66eb24070d82495b965f3d89b661bd9d"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-92a92b8cf9a84b13ad359d1a6c24828a") {
-      outputDiv = document.getElementById("altair-viz-92a92b8cf9a84b13ad359d1a6c24828a");
+    if (outputDiv.id !== "altair-viz-66eb24070d82495b965f3d89b661bd9d") {
+      outputDiv = document.getElementById("altair-viz-66eb24070d82495b965f3d89b661bd9d");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -16186,7 +16236,7 @@ dtype: object</pre>
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"data": {"name": "data-9f0c1730257ba8612455ef6a84d77b88"}, "mark": "point", "encoding": {"color": {"field": "A", "title": "Animal", "type": "nominal"}, "shape": {"field": "A", "type": "nominal"}, "tooltip": [{"field": "C", "type": "quantitative"}, {"field": "A", "type": "nominal"}], "x": {"field": "B", "title": "Time", "type": "ordinal"}, "y": {"field": "C", "scale": {"domain": [0, 1]}, "title": "Proportion", "type": "quantitative"}}, "selection": {"selector001": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}, "title": "Proportions of animals at different times of day (????)", "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-9f0c1730257ba8612455ef6a84d77b88": [{"A": "Cat", "B": 1, "C": 0.1}, {"A": "Cat", "B": 2, "C": 0.2}, {"A": "Dog", "B": 3, "C": 0.3}, {"A": "Dog", "B": 4, "C": 0.4}, {"A": "Fish", "B": 6, "C": 0.6}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-9f0c1730257ba8612455ef6a84d77b88"}, "mark": "point", "encoding": {"color": {"field": "A", "title": "Animal", "type": "nominal"}, "shape": {"field": "A", "type": "nominal"}, "tooltip": [{"field": "C", "type": "quantitative"}, {"field": "A", "type": "nominal"}], "x": {"field": "B", "title": "Time", "type": "ordinal"}, "y": {"field": "C", "scale": {"domain": [0, 1]}, "title": "Proportion", "type": "quantitative"}}, "selection": {"selector002": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}, "title": "Proportions of animals at different times of day", "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-9f0c1730257ba8612455ef6a84d77b88": [{"A": "Cat", "B": 1, "C": 0.1}, {"A": "Cat", "B": 2, "C": 0.2}, {"A": "Dog", "B": 3, "C": 0.3}, {"A": "Dog", "B": 4, "C": 0.4}, {"A": "Fish", "B": 6, "C": 0.6}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
